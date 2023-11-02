@@ -1,0 +1,71 @@
+/* App.css */
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Form.css */
+form {
+  margin: 20px auto;
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+form label {
+  display: block;
+  margin-top: 20px;
+  color: #666;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; /* para que el padding no afecte el ancho total */
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Agregamos transición para un efecto suave */
+}
+
+form button:hover {
+  background-color: #4cae4c;
+  transform: translateY(-2px); /* Levanta ligeramente el botón */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade sombra para dar sensación de elevación */
+}
+/* Card.css */
+.Card {
+  margin: 20px auto;
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.Card h2 {
+  color: #333;
+}
+
+.Card p {
+  color: #666;
+}
